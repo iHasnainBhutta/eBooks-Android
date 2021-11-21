@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".eBooks"
+    tools:showIn="@layout/activity_e_books">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="11dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/custom_button2"
+            android:text="Computer Science Books" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/custom_button2"
+            android:text="Motivational Books" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="19dp"
+            android:text="Online Courses"
+            android:background="@drawable/custom_button2"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

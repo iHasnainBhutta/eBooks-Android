@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".onlineCourses"
+    tools:showIn="@layout/activity_online_courses">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="11dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button9"
+            android:onClick="browser1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="Coursera"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button16"
+            android:onClick="browser2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="Udemy"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button007"
+            android:onClick="browser3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="edX"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button008"
+            android:onClick="browser4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="Stanford Online"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button009"
+            android:onClick="browser5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="Khan Academy"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button010"
+            android:onClick="browser6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="Lynda"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+
+        <Button
+            android:id="@+id/button011"
+            android:onClick="browser7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/custom_button3"
+            android:text="MIT's OpenCourseWare"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

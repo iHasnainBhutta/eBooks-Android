@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ebooks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".onlineCourses"
+            android:label="Online Courses"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".book15"
+            android:label="The 7 Habits of Highly Effective People"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book14"
+            android:label="The Alchemist"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book13"
+            android:label="Think and Grow Rich"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book12"
+            android:label="Rich Dad and Poor Dad"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book11"
+            android:label="Digital Fundamentals"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book10"
+            android:label="Data Structures and Algorithms"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book9"
+            android:label="Learning PHP and MySQL"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book8"
+            android:label="An Introduction to C and GUI"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".book7" />
+        <activity
+            android:name=".book6"
+            android:label="The C Programming"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book5"
+            android:label="Understanding Pointers In C" />
+        <activity
+            android:name=".book4"
+            android:label="Data Structures With Java"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".book3"
+            android:label="Let Us C"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Book2"
+            android:label="Computer Organization and Architecture"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".eBooks"
+            android:label="Explore eBooks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".book1"
+            android:label="@string/title_activity_book1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="Motivational Books"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity2"
+            android:label="@string/title_activity_scrolling2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
